@@ -42,3 +42,13 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+
+}
